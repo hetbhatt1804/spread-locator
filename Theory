@@ -1,0 +1,94 @@
+Part A – Theoretical Foundation
+
+1. Statistical Distributions
+
+A statistical distribution describes how the values of a random variable are spread. It shows the probability or frequency of each possible outcome. Common examples include Normal, Binomial, and Poisson distributions.
+
+⸻
+
+2. Q-Q Plot
+
+A Quantile-Quantile (Q-Q) plot is used to compare the distribution of a dataset with a theoretical distribution (usually normal).
+	•	If points lie on a straight line → data is normally distributed
+	•	Deviations indicate skewness or outliers
+
+⸻
+
+3. Discrete vs Continuous Distributions
+	•	Discrete Distribution: Takes countable values (e.g., number of students, number of defects)
+	•	Continuous Distribution: Takes infinite values within a range (e.g., height, weight, time)
+
+⸻
+
+4. Bernoulli Distribution
+
+A distribution with only two outcomes:
+	•	Success (1) with probability p
+	•	Failure (0) with probability 1 − p
+
+Used for single trial experiments.
+
+⸻
+
+5. Binomial Distribution
+
+Represents the number of successes in n independent Bernoulli trials.
+Conditions:
+	•	Fixed number of trials
+	•	Same probability of success
+	•	Independent trials
+
+⸻
+
+6. Log-Normal Distribution
+
+A variable is log-normally distributed if its logarithm follows a normal distribution.
+	•	Right-skewed
+	•	Used in finance, income distribution, stock prices
+
+⸻
+
+7. Power Law Distribution
+
+In this distribution:
+	•	Small values are very common
+	•	Large values are rare but significant
+
+Examples: wealth distribution, social media followers, earthquake magnitude.
+
+⸻
+
+8. Box-Cox Transform
+
+A mathematical transformation used to:
+	•	Make data more normally distributed
+	•	Stabilize variance
+	•	Improve model performance
+
+⸻
+
+9. Poisson Distribution
+
+Used to model the number of events occurring in a fixed interval.
+Examples:
+	•	Number of calls per hour
+	•	Number of website hits
+
+⸻
+
+10. Z-Score Probability
+
+Z-score tells how far a value is from the mean in terms of standard deviation:
+	•	Z > 0 → above mean
+	•	Z < 0 → below mean
+
+Used in hypothesis testing and normalization.
+
+11. PDF vs CDF
+
+Function
+Meaning
+PDF (Probability Density Function)
+Probability at a specific value
+CDF (Cumulative Distribution Function)
+Probability up to a value
